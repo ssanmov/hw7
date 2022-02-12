@@ -1,0 +1,119 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    min-width: 1519px;
+    max-width: 1519px;
+    background-color: #f2c140;
+}
+h1{
+    font-family: "Italianno", cursive;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+h2,h3{
+    font-family: "Gluten", cursive;
+    
+}
+.background{
+    width: 100%;
+}
+.rounded{
+    position: absolute;
+    width: 180px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: 1s;
+}
+.rounded:hover{
+    width: 300px;
+    z-index: 100;
+}
+.top{
+    position: relative;
+}
+.ergashbek{
+    top: 110px;
+    left: 60px;
+}
+.ibragim{
+ bottom: 250px;
+ left: 180px;
+}
+.laziz{
+top: 70px;
+left: 355px;
+}
+.murod{
+top: 20px;
+right: 60px;
+}
+.oybekaka{
+top: 160px;
+right: 250px;
+}
+.sanjar{
+top: 60px;
+right: 450px;
+}
+.shahzod{
+top: 370px;
+right: 80px;
+}
+.big-img{
+    height: 100%;
+    border-radius: 50%;
+   
+    margin-right: 30px;
+}
+.to-left{
+    float: left;
+}
+.to-right{
+    float: right;
+}
+.member{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    height: 300px;
+    overflow: hidden;
+}
+.uparrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 65px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+* {
+    scroll-behavior: smooth;
+}
+.bottom{
+    background-color:#eb9f0e ;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+.bottom p{
+    margin-top: 30px;
+    color: white;
+}
+.bottom a{
+    margin: auto 20px;
+    text-decoration: none;
+    color: #422c03 ;
+    font-weight: 600;
+}
+.about{
+    text-align: center;
+    padding: 100px;
+}
+hr{
+    border-style: none;
+    border-top: dotted #422c03 10px;
+    width: 100px;
+    margin: 100px auto;
+}
